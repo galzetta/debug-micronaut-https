@@ -18,7 +18,6 @@
         <micronaut.version>2.3.3</micronaut.version>
         <exec.mainClass>com.example.ApplicationKt</exec.mainClass>
         <kotlinVersion>1.4.10</kotlinVersion>
-        <security.lib.version>1.0-SNAPSHOT</security.lib.version>
     </properties>
 
     <repositories>
@@ -90,7 +89,6 @@
             <scope>runtime</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -186,5 +184,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
