@@ -33,23 +33,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.micronaut.servlet</groupId>
-            <artifactId>micronaut-http-server-jetty</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.eclipse.jetty</groupId>
-                    <artifactId>jetty-servlet</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <!-- ========================================================================== -->
-        <!-- Explicitly include jetty-servlet since we needed it at compile-time        -->
-        <!-- Cause: https://github.com/micronaut-projects/micronaut-servlet/issues/114  -->
-        <!-- ========================================================================== -->
-        <dependency>
-            <groupId>org.eclipse.jetty</groupId>
-            <artifactId>jetty-servlet</artifactId>
-            <version>9.4.32.v20200930</version>
+            <groupId>io.micronaut</groupId>
+            <artifactId>micronaut-http-server-netty</artifactId>
+            <version>${micronaut.version}</version>
         </dependency>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
